@@ -37,6 +37,7 @@ Add the below Environment properties in you Elastic Beanstalk.
 
 # Note and FAQs:
 Why restart the nginx in post script rather in the Ebextension?
+
 As ebextenstion will execute at the start of the deployment itself when edit the nginx and try to restart the application
 initially at that time docker(your application) will not be up and running so I have added the nginx restart as separate script in post deployment.
 
