@@ -18,3 +18,8 @@ cp -r ebxtenstion <path_to_your_application>/.ebxtenstion
 
 Add the below Environment properties in you Elastic Beanstalk.
 
+| ------------- | ------------- |
+| cert_path              | <link>        |
+| key_path               | <link>        |
+| location_cert_key      | /mnt/cert/    |
+| ------------- | ------------- |
